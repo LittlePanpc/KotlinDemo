@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btm_nvg_home"
+        android:icon="@drawable/ic_action_btm_nvg_home"
+        android:title="@string/bottom_nav_title_home" />
+    <item
+        android:id="@+id/btm_nvg_collection"
+        android:checked="true"
+        android:icon="@drawable/ic_action_btm_nvg_collection"
+        android:title="@string/bottom_nav_title_collection" />
+    <item
+        android:id="@+id/btm_nvg_community"
+        android:icon="@drawable/ic_action_btm_nvg_community"
+        android:title="@string/bottom_nav_title_community" />
+    <item
+        android:id="@+id/btm_nvg_notification"
+        android:icon="@drawable/ic_action_btm_nvg_notification"
+        android:title="@string/bottom_nav_title_notification" />
+</menu>
